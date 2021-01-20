@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    background-color: white;
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 40%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.left-pane{
+    background-color: #099dfd;
+    width: 40vw;
+    height: 70vh;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+
+#bottomText{
+    font-size: 1.75rem;
+    color: white;
+}
+
+
+
+#illustration{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#illustrationContainer{
+    width: 500px;
+    margin-left: 20px;
+    padding-bottom: 45px;
+}
+
+
+#img-container{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#right-pane{
+    background-color: white;
+    flex: 1;
+    text-align: center;
+}
+
+.loginContainer{
+  
+    padding-left: 220px
+}
+
+#headingText{
+    font-size: 1.5rem;
+
+}
+#highlighted{
+    color: #099dfd;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 90%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+.submitButton{
+    background-color: #099dfd;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
+
+
+
+
+
+
